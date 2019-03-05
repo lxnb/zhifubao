@@ -14,6 +14,8 @@ public class User {
     @Id
     @KeySql(useGeneratedKeys = true)
     private Integer id;
+    
+    
     private String name;
     private String password;
     private String city;
